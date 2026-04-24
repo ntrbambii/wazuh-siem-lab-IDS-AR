@@ -83,6 +83,14 @@ In this lab, I've learned what kind of monitoring can popup when it comes to **b
 
 ## 🔍 Key Concepts Learned
 
-
+- **Brute Force Attacks** - Understanding how attackers use automated tools like hydra to process different passwords to login until they gain access.
+- **Intrusion Detection** - Learning how a SIEM like Wazuh monitors system logs in real time.
+- **Active Response** - Understanding how security systems can automatically take action without human response.
+- **SIEM Rule Thresholds** - Knowing how rule 5763 works by counting failed login attempts from the same IP within a time frame before triggering an alert.
+- **iptables Firewall** - Understanding how Linux uses iptables to control incoming and outgoing network traffic and how DROP can be effective in discarding malicious  packets.
+- **Network Segmentation** - Understanding the importance of having machines on the same network for proper communication in a lab.
+- **Log Analysis** - Reading and understanding Wazuh's active-response logs and system alerts to verify that detection and response worked.
+- **Attack Surface** - Understanding how SSH represents an exposed service that are commonly targeted.
+- **Detection Response** - Understanding the workflow from an attack happening, being detected, and automatically dropped without manual intervention
 
 ---
