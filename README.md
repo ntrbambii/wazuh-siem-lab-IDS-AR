@@ -47,7 +47,7 @@ In this lab, I've learned what kind of monitoring can popup when it comes to **b
 
 > ![Configuration](screenshots/step1.jpg)
 
-
+Configuring ossec config so that firewall is enabled with Rule 5763 and uses a firewall-drop command. It uses iptables to block or drop an IP automatically and with a timeout of 3 minutes.
 
 ---
 
@@ -57,7 +57,7 @@ In this lab, I've learned what kind of monitoring can popup when it comes to **b
 > ![Brute-force](screenshots/step2.jpg)
 > ![Brute-force](screenshots/step2_1.jpg)
 
-
+Kali Linux is used to access Hydra, which uses random and different passwords to create a brute force simulation with the ubuntu server.
 
 ---
 
@@ -67,7 +67,7 @@ In this lab, I've learned what kind of monitoring can popup when it comes to **b
 > ![Detection](screenshots/step3.jpg)
 > ![Detection](screenshots/step3_1.jpg)
 
-
+Through the Wazuh dashboard (threat hunting) alerts were shown for brute force, once filtered you can see the threat and analyze how many logs are coming in.
 
 ---
 
@@ -77,7 +77,7 @@ In this lab, I've learned what kind of monitoring can popup when it comes to **b
 > ![Attacker's IP](screenshots/step4.jpg)
 > ![iptables](screenshots/step4_1.jpg)
 
-
+Through verifying the attacker's IP, first went through kali Linux to verify the IP and with the auto response and firewall that was enabled and configured, I went back to ubuntu and checked the iptables to see if the IP was blocked. It has dropped the attackers IP.
 
 ---
 
