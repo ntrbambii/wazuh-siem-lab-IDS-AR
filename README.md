@@ -45,7 +45,7 @@ In this lab, I've learned what kind of monitoring can popup when it comes to **b
 ### Step 1: Enable active response on Wazuh manager
 
 > Enabling active response
-> ![Wazuh Manager Install](screenshots/.jpg)
+> ![Configuration](screenshots/step1.jpg)
 
 
 
@@ -54,7 +54,8 @@ In this lab, I've learned what kind of monitoring can popup when it comes to **b
 ### Step 2: Simulate a brute-force attack - Kali Linux - Hydra
 
 > Simulation
-> ![Wazuh Access](screenshots/.jpg)
+> ![Brute-force](screenshots/step2.jpg)
+> ![Brute-force](screenshots/step2_1.jpg)
 
 
 
@@ -63,7 +64,8 @@ In this lab, I've learned what kind of monitoring can popup when it comes to **b
 ### Step 3: Check for detection on Wazuh
 
 > Wazuh Threat Hunting
-> ![Wazuh Dashboard](screenshots/.jpg)
+> ![Detection](screenshots/step3.jpg)
+> ![Detection](screenshots/step3_1.jpg)
 
 
 
@@ -72,8 +74,8 @@ In this lab, I've learned what kind of monitoring can popup when it comes to **b
 ### Step 4: Check if attacker's IP was dropped
 
 > Confirmation
-> ![Wazuh Agent](screenshots/.jpg)
-> ![Wazuh Agent](screenshots/.jpg)
+> ![Attacker's IP](screenshots/step4.jpg)
+> ![iptables](screenshots/step4_1.jpg)
 
 
 
