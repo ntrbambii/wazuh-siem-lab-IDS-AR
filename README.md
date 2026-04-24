@@ -44,7 +44,7 @@ In this lab, I've learned what kind of monitoring can popup when it comes to **b
 
 ### Step 1: Enable active response on Wazuh manager
 
-> Enabling active response
+> Enable active response
 > ![Configuration](screenshots/step1.jpg)
 
 
